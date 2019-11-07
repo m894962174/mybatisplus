@@ -14,6 +14,7 @@ public class ClientCopyService {
     private ClientCopyMapper clientCopyMapper;
 
     public List<ClientCopy> list(){
+        System.out.println();
         return clientCopyMapper.selectList(null);
     }
 }
